@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@color/red"
+    android:paddingLeft="21dp"
+    android:paddingRight="21dp"
+    android:paddingBottom="11dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:text="Add Books"
+        android:gravity="center"
+        android:id="@+id/txtTitle"
+        android:layout_margin="21dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter  book name"
+        android:padding="11dp"
+        android:id="@+id/edtBook"
+        android:layout_marginBottom="11dp"
+        android:inputType="text"
+        android:background="#fff"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter writer name"
+        android:padding="11dp"
+        android:id="@+id/edtWriter"
+        android:layout_marginBottom="11dp"
+        android:inputType="text"
+        android:background="#fff"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Add"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="11dp"
+        android:textColor="@color/black"
+        android:layout_gravity="end"
+        android:id="@+id/btnAction"/>
+
+
+</LinearLayout>
